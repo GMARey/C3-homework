@@ -4,58 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
 </head>
 <body>
     <header>
-        <h1>Título principal de mi pagina web</h1>
-        <span>HOME</span>
-        <span>NOTICIAS</span>
-        <span>CONTACTO</span>
+        <div class="titulo">
+            <h1 id="principal">NOTICIAS RG</h1>
+            <p>Portal de noticias del Grupo ReyG</p>
+        </div>
+        <div class="botones">
+            <span>HOME</span>
+            <span>NOTICIAS</span>
+            <span>CONTACTO</span>
+        </div>
     </header>
 
     <main>
-
-        <img src="./portal-de-noticias.jpg" alt="">
-
         <section>
-            <h2>Esta es una seccion de noticias</h2>
-            <article>
-                <hr/>
-                <h3>Noticia 1</h3>
-                <div>
-                    <p>Este es el articulo de la Noticia 1.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium itaque molestias quo dicta cum beatae ipsa corporis ex iste, nihil non laborum necessitatibus animi iusto, quibusdam sed. A, ipsum excepturi!</p>
-                </div>
-                <hr/>
-            </article>
+            <div class="subtitulo">
+                <h2>Categorias más buscadas...</h2>
+            </div>
+            <div class="cards-container">
+                <article>
+                    <div class="card-category">
+                        <h3>POLITICA</h3>
+                        <img src="./img/politica.jpg" alt="">
+                    </div>
+                </article>
 
-            <article>
-                <h3>Noticia 2</h3>
-                <p>Lista de articulos importantes de la noticia.</p>
-                <ol>
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
-                </ol>
-                <hr/>
-            </article>
+                <article>
+                    <div class="card-category">
+                        <h3>ECONOMIA</h3>
+                        <img src="./img/economia.jpg" alt="">
+                    </div>
+                </article>
 
-            <article>
-                <h3>Noticia 3</h3>
-                <p>Este listado de cosas no esta ordenado</p>
-                <ul>
-                    <li>Elemento</li>
-                    <li>Otro elemento</li>
-                </ul>
-                <hr/>
-            </article>
+                <article>
+                    <div class="card-category">
+                        <h3>INTERNACIONALES</h3>
+                        <img src="./img/internacionales.jpg" alt="">
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>Este es el footer de mi pagina. Unos enlaces.</p>
-        
-        <a href="./contacto.html">Contacto</a>
+        <div class="footer">
+            <h6>ReyG Group</h6>
+            <p>Todos los derechos reservados</p>
+            <p>Soy Henry - PrepCourse</p>
+        </div>
     </footer>
 
 </body>
